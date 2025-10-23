@@ -1,0 +1,8 @@
+C:\Users\yeferson\source\repos\taller_3\taller_3\obj\Debug\taller_3.csproj.AssemblyReference.cache
+C:\Users\yeferson\source\repos\taller_3\taller_3\obj\Debug\taller_3.csproj.CoreCompileInputs.cache
+C:\Users\yeferson\source\repos\taller_3\taller_3\bin\Debug\taller_3.exe.config
+C:\Users\yeferson\source\repos\taller_3\taller_3\bin\Debug\taller_3.exe
+C:\Users\yeferson\source\repos\taller_3\taller_3\bin\Debug\taller_3.pdb
+C:\Users\yeferson\source\repos\taller_3\taller_3\obj\Debug\taller_3.exe
+C:\Users\yeferson\source\repos\taller_3\taller_3\obj\Debug\taller_3.pdb
+C:\Users\yeferson\source\repos\taller_3\taller_3\obj\Debug\taller_3.exe.config
