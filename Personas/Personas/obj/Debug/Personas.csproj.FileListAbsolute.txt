@@ -1,0 +1,8 @@
+C:\Users\yeferson\source\repos\Personas\Personas\bin\Debug\Personas.exe.config
+C:\Users\yeferson\source\repos\Personas\Personas\bin\Debug\Personas.exe
+C:\Users\yeferson\source\repos\Personas\Personas\bin\Debug\Personas.pdb
+C:\Users\yeferson\source\repos\Personas\Personas\obj\Debug\Personas.csproj.AssemblyReference.cache
+C:\Users\yeferson\source\repos\Personas\Personas\obj\Debug\Personas.csproj.CoreCompileInputs.cache
+C:\Users\yeferson\source\repos\Personas\Personas\obj\Debug\Personas.exe
+C:\Users\yeferson\source\repos\Personas\Personas\obj\Debug\Personas.pdb
+C:\Users\yeferson\source\repos\Personas\Personas\obj\Debug\Personas.exe.config

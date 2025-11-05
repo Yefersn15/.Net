@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace POO2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Seleccione una opción:");
+            int opcion = int.Parse(Console.ReadLine());
+            switch (opcion)
+            {
+                case 1:
+
+                    break;
+            }
+        }
+    }
+}
