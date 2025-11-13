@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Proyecto_MVC.Models.Ventas>
+@{
+    ViewData["Title"] = "Ventas";
+}
+
+<h1>Ventas</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Crear Nueva Venta</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Cliente</th>
+            <th>Producto</th>
+            <th>Precio unitario</th>
+            <th>Cantidad</th>
+            <th>Fecha de Venta</th>
+            <th>Total</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            var cliente = (ViewBag.Clientes as List<Proyecto_MVC.Models.Clientes>)?.FirstOrDefault(c => c.Id == item.ClienteId);
+            var producto = (ViewBag.Productos as List<Proyecto_MVC.Models.Productos>)?.FirstOrDefault(p => p.Id == item.ProductoId);
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>
+                    @if (cliente != null)
+                    {
+                        @:@cliente.Nombres @cliente.Apellidos
+                    }
+                    else
+                    {
+                        @:Cliente no encontrado
+                    }
+                </td>
+                <td>@(producto != null ? producto.Nombre : "Producto no encontrado")</td>
+                <td>@item.Precio.ToString("0.00")</td>
+                <td>@item.Cantidad</td>
+                <td>@Html.DisplayFor(modelItem => item.FechaVenta)</td>
+                <td>@item.Total.ToString("0.00")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Detalles</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
